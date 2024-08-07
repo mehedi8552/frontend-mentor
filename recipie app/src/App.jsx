@@ -8,7 +8,6 @@ const App = () => {
     <Routes>
       <Route path='/' element ={<OmeletteRecipe/>}/>
     </Routes>
-
     </BrowserRouter>
   );
 };

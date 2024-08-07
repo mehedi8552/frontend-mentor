@@ -2,7 +2,8 @@ import React from "react";
 import omllet from "../assets/image-omelette.jpeg";
 const OmeletteRecipe = () => {
   return (
-    <div className="font-serif ">
+    <div className="font-serif h-full w-full bg-pink lg:flex flex-col items-center lg:py-8">
+        <div className="  lg:h-[1650px] lg:w-[500px] lg:rounded-md bg-white">
       <div className="lg:px-6 lg:py-4 lg:pt-8">
         <img className=" lg:w-full lg:rounded-lg" src={omllet} alt="" />
       </div>
@@ -64,7 +65,6 @@ const OmeletteRecipe = () => {
           </li>
           <li className ="text-gray">
             <span className="font-bold ">
-              {" "}
               Add fillings (optional)
             </span>
             : When the eggs begin to set at the edges but are still slightly
@@ -110,6 +110,7 @@ const OmeletteRecipe = () => {
             </tr>
           </tbody>
         </table>
+      </div>
       </div>
     </div>
   );
