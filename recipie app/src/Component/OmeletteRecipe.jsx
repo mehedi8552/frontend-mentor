@@ -2,9 +2,9 @@ import React from "react";
 import omllet from "../assets/image-omelette.jpeg";
 const OmeletteRecipe = () => {
   return (
-    <div className="font-serif">
-      <div className="lg:px-6 lg:py-4 lg:pt-8 ">
-        <img className="lg:rounded-lg" src={omllet} alt="" />
+    <div className="font-serif ">
+      <div className="lg:px-6 lg:py-4 lg:pt-8">
+        <img className=" lg:w-full lg:rounded-lg" src={omllet} alt="" />
       </div>
       <div className="px-6 py-4 space-y-4">
         <p className="font-bold text-4xl "> Simple Omelette Recipe</p>

@@ -1,11 +1,15 @@
 import React from 'react';
 import OmeletteRecipe from './Component/OmeletteRecipe';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      <OmeletteRecipe/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element ={<OmeletteRecipe/>}/>
+    </Routes>
+
+    </BrowserRouter>
   );
 };
 
