@@ -8,7 +8,7 @@ export default {
     colors: {
       dippink:'#AF3A94',
       gray:'#4b5563',
-      pink:"#f9a8d4",
+      pink:"#F3E5D8",
       white:"#fafafa",
       pinkLite:'#fff7ed',
       Amber:'#92400e',
