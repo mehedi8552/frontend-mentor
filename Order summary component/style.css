@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.red-hat-display{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+/*  <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 700 */
+
+.red-hat-mono{
+  font-family: "Red Hat Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 360px;
+  font-style: normal;
+}
+
+.root-container{
+    height: 87vh;
+    background-color:hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:100px ;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+.main-component{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   border-radius: 20px;
+   margin-top: 20px;    
+   margin-bottom: 20px;
+   padding-bottom: 30px;
+}
+.image img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text-component{
+    text-align: center;
+    
+}
+.top-text-component{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1,h4{
+    color: hsl(223, 47%, 23%);
+}
+p{
+    color:hsl(224, 23%, 55%);
+}
+.order-component{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    background-color:   hsl(224, 60%, 60%);
+}
+.change{
+    font-weight: bold; padding-top: 10px;
+}
+.change:hover{
+    color: hsl(224, 60%, 60%);
+    text-decoration: none;
+}
+.cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bolder;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+@media (min-width: 1280px) { 
+    .root-container{
+        padding: 50px;
+        padding-left: 660px;
+        padding-right: 660px;
+     }
+     .image img{ 
+        width: fit-content;
+     }
+
+ }
